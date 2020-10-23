@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  border-bottom: solid 1px #333333;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin-left: auto;
+    position: sticky;
+    top: 0;
+    font-family: 'Marck Script', cursive;
+    font-size: 3vmax;
+    color: #333333;
+    white-space: nowrap;
+  }
+
+  .cart {
+    margin-left: auto;
+    margin-right: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .active {
+    color: rgb(192, 156, 57);
+  }
+}

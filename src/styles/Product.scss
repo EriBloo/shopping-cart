@@ -1,0 +1,82 @@
+.product {
+  height: 20rem;
+  width: 15rem;
+  background-color: #cccccc;
+  border: solid 1px #333333;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem;
+
+  .img-wrapper {
+    height: 10rem;
+    width: 10rem;
+    border: solid 1px #333333;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+
+    img {
+      width: 15rem;
+      height: 15rem;
+      object-fit: cover;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333333;
+    font-weight: 300;
+  }
+
+  h3::first-letter {
+    text-transform: uppercase;
+  }
+
+  input {
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    button {
+      height: 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+
+      button {
+        width: 1.5rem;
+        height: 1.5rem;
+        display: grid;
+        place-content: center;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+  }
+}
